@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* end
+*/
+
+#video{
+    width: 720px;
+    margin: 20px auto;
+    background: rgba(111, 134, 236, 0.596);
+    padding: 7px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+nav{
+    margin: 5px 0;
+}
+
+#botones{
+    float: left;
+    width: 100px;
+    height: 20px;
+}
+
+#barra{
+    background: gainsboro;
+    width: 600px;
+    height: 16px;
+    border: 1px solid gray;
+    padding: 3px;
+    margin-left: 60px;
+}
+
+#progreso{
+    position: absolute;
+    width: 0px;
+    height: 16px;  
+    background: rgba(0, 0, 150, 21);
+}

@@ -25,7 +25,7 @@ nav{
     height: 20px;
 }
 
-#barra{
+#barra, #barra2{
     background: gainsboro;
     width: 600px;
     height: 16px;
@@ -34,9 +34,31 @@ nav{
     margin-left: 60px;
 }
 
-#progreso{
+#progreso, #progreso2{
     position: absolute;
     width: 0px;
     height: 16px;  
     background: rgba(0, 0, 150, 21);
+}
+
+#audio{
+    width: 720px;
+    margin: 20px auto;
+    background: rgba(111, 134, 236, 0.596);
+    padding: 7px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+h1, h2{
+    text-align: center;
+    color: rgb(49, 49, 150);
+}
+
+body{
+   background-color: rgb(27, 162, 196);
 }

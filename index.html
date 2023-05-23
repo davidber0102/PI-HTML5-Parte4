@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <!--
         video 18 min 28
     -->
@@ -17,32 +17,47 @@
 <body>
     <header>
         <h1>
-            Ejercicio con videos Parte I
+            Ejercicio Final
         </h1>
-    </header>
-<section id="video">
-    <video id="mivideo" width=720"" loop>
+            </header>
+<!-- Seccion de Video -->
+<section id="video"> 
+    <header>
+        <h2> Repdrudctor de Video</h2>
+    </header>     
+    <video id="mivideo" width=720"" loop>    
         <source src="videos/mundo1992.mp4">
         <source src="videos/mundo1992.ogg"> 
-    </video>
-
+    </video>    
 <nav>
 <div id="botones">
-<button type="button" id="reproducir" >Play</button>
+<button type="button" id="reproducir">Play</button>
 </div>
     <div id="barra">
         <div id="progreso"></div>
-
     </div>
-
-
-    
-
 </nav>
+</section> 
+<!-- Seccion de audio -->
+ <section id="audio">
+    <header>
+        <h2>Reproductor de Audio</h2>
+    </header>
+    <audio id="miaudio" width =720"" loop>
+        <source src="videos/PlainFolks.mp3">
+        <source src="videos/PlainFolks.ogg">
+    </audio>
+    <nav>
+        <div id="botones">
+        <button type="button" id="play">Play</button>
+        </div>
+        <div id="barra2">
+            <div id="progreso2"></div>
+        </div>
 
-</section>
+    </nav>
 
-    
+ </section>
     
 </body>
 </html>
